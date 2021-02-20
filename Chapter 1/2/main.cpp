@@ -10,11 +10,12 @@ auto gcd(unsigned int a, unsigned int b) -> unsigned int {
     return a;
 }
 
+// NOLINTNEXTLINE(misc-no-recursion)
 auto recursive_gcd(const unsigned int a, const unsigned int b) -> unsigned int {
     return (b == 0) ? a : recursive_gcd(b, a % b);
 }
 
-auto main(int argc, const char * argv[]) -> int {
+auto main(int  /*argc*/, const char *  /*argv*/[]) -> int {
     std::cout << "Input numbers:";
     int a = 0;
     int b = 0;

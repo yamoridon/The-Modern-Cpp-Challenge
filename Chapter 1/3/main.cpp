@@ -15,9 +15,10 @@ auto lcm(unsigned int const a, unsigned int const b) -> unsigned int {
     return h != 0 ? (a * (b / h)) : 0;
 }
 
-auto main(int argc, const char * argv[]) -> int {
+auto main(int  /*argc*/, const char *  /*argv*/[]) -> int {
     std::cout << "Input numbers:";
-    int a = 0, b = 0;
+    int a = 0;
+    int b = 0;
     std::cin >> a >> b;
     
     std::cout << "lcm(" << a << ", " << b << "):" << lcm(a, b) << std::endl;
