@@ -2,12 +2,16 @@
 
 PROJECT='The Modern Cpp Challenge.xcodeproj'
 
-CLANG_TIDY=`brew list llvm | grep clang-tidy$ | head -1`
-RUN_CLANG_TIDY=`brew list llvm | grep run-clang-tidy.py$ | head -1`
+TEMPFILE=$(mktemp)
+brew list llvm > $TEMPFILE
+CLANG_FORMAT=`cat $TEMPFILE | grep clang-format$ | head -1`
+CLANG_TIDY=`cat $TEMPFILE  | grep clang-tidy$ | head -1`
+RUN_CLANG_TIDY=`cat $TEMPFILE | grep run-clang-tidy.py$ | head -1`
 RUN_CLANG_TIDY_OPTIONS='-checks=cert-*,clang-analyzer-*,cppcoreguidelines-*,misc-*,modernize-*,performance-*,portability-*,readability-* -fix'
+rm $TEMPFILE
 
 TMPFILE=$(mktemp)
-rm -f compile_commands.json
+rm compile_commands.json
 xcodebuild -project "$PROJECT" clean | xcpretty
 xcodebuild -project "$PROJECT" -alltargets -configuration Release -arch `uname -m` build | \
     xcpretty -r json-compilation-database --output $TMPFILE
@@ -17,6 +21,8 @@ cat $TMPFILE | \
          -pe 's/\\\\ / /g;' \
          -pe 's/-gmodules / /g;' \
          -pe 's/-fmodules / /g;' > compile_commands.json
+rm $TEMPFILE
 export PATH=`dirname $CLANG_TIDY`:$PATH
 $RUN_CLANG_TIDY $RUN_CLANG_TIDY_OPTIONS
+find . \( -name "*.cpp" -o -name "*.h" \) -exec $CLANG_FORMAT -style=Google -i {} \;
 
