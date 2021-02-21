@@ -7,7 +7,7 @@ brew list llvm > $TMPFILE
 CLANG_FORMAT=`cat $TMPFILE | grep clang-format$ | head -1`
 CLANG_TIDY=`cat $TMPFILE  | grep clang-tidy$ | head -1`
 RUN_CLANG_TIDY=`cat $TMPFILE | grep run-clang-tidy.py$ | head -1`
-RUN_CLANG_TIDY_OPTIONS='-checks=cert-*,clang-analyzer-*,cppcoreguidelines-*,misc-*,modernize-*,performance-*,portability-*,readability-* -fix'
+RUN_CLANG_TIDY_OPTIONS='-checks=cert-*,clang-analyzer-*,cppcoreguidelines-*,misc-*,modernize-*,performance-*,portability-*,readability-* -header-filter=.* -fix'
 
 TMPFILE=$(mktemp)
 rm compile_commands.json
