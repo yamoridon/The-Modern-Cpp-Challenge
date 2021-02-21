@@ -136,22 +136,14 @@
 		D458343625E0B49300BB136B = {
 			isa = PBXGroup;
 			children = (
-				D458343D25E0B4AC00BB136B /* Chapter 1 */,
-				D458344325E0B4DB00BB136B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D458343D25E0B4AC00BB136B /* Chapter 1 */ = {
-			isa = PBXGroup;
-			children = (
 				D458344425E0B4DB00BB136B /* 1 */,
 				D458345225E0BE8900BB136B /* 2 */,
 				D458346325E0D34600BB136B /* 3 */,
 				D4639BCD25E180D300D2B7C9 /* 4 */,
 				D4639BE825E189DD00D2B7C9 /* 5 */,
 				D4639BFD25E25F0A00D2B7C9 /* 6 */,
+				D458344325E0B4DB00BB136B /* Products */,
 			);
-			path = "Chapter 1";
 			sourceTree = "<group>";
 		};
 		D458344325E0B4DB00BB136B /* Products */ = {
