@@ -1,0 +1,407 @@
+name: The-Modern-Cpp-Challenge
+settings:
+  DEVELOPMENT_TEAM: 8T6MHKM77M
+  CLANG_CXX_LANGUAGE_STANDARD: gnu++17
+  GCC_C_LANGUAGE_STANDARD: gnu11
+targets:
+  1:
+    type: tool
+    platform: macOS
+    sources: 1.cpp
+  2:
+    type: tool
+    platform: macOS
+    sources: 2.cpp
+  3:
+    type: tool
+    platform: macOS
+    sources: 3.cpp
+  4:
+    type: tool
+    platform: macOS
+    sources: 4.cpp
+  5:
+    type: tool
+    platform: macOS
+    sources: 5.cpp
+  6:
+    type: tool
+    platform: macOS
+    sources: 6.cpp
+  7:
+    type: tool
+    platform: macOS
+    sources: 7.cpp
+  8:
+    type: tool
+    platform: macOS
+    sources: 8.cpp
+  9:
+    type: tool
+    platform: macOS
+    sources: 9.cpp
+  10:
+    type: tool
+    platform: macOS
+    sources: 10.cpp
+  11:
+    type: tool
+    platform: macOS
+    sources: 11.cpp
+  12:
+    type: tool
+    platform: macOS
+    sources: 12.cpp
+  13:
+    type: tool
+    platform: macOS
+    sources: 13.cpp
+  14:
+    type: tool
+    platform: macOS
+    sources: 14.cpp
+  15:
+    type: tool
+    platform: macOS
+    sources: 15.cpp
+  16:
+    type: tool
+    platform: macOS
+    sources: 16.cpp
+  17:
+    type: tool
+    platform: macOS
+    sources: 17.cpp
+  18:
+    type: tool
+    platform: macOS
+    sources: 18.cpp
+  19:
+    type: tool
+    platform: macOS
+    sources: 19.cpp
+  20:
+    type: tool
+    platform: macOS
+    sources: 20.cpp
+  21:
+    type: tool
+    platform: macOS
+    sources: 21.cpp
+  22:
+    type: tool
+    platform: macOS
+    sources: 22.cpp
+  23:
+    type: tool
+    platform: macOS
+    sources: 23.cpp
+  24:
+    type: tool
+    platform: macOS
+    sources: 24.cpp
+  25:
+    type: tool
+    platform: macOS
+    sources: 25.cpp
+  26:
+    type: tool
+    platform: macOS
+    sources: 26.cpp
+  27:
+    type: tool
+    platform: macOS
+    sources: 27.cpp
+  28:
+    type: tool
+    platform: macOS
+    sources: 28.cpp
+  29:
+    type: tool
+    platform: macOS
+    sources: 29.cpp
+  30:
+    type: tool
+    platform: macOS
+    sources: 30.cpp
+  31:
+    type: tool
+    platform: macOS
+    sources: 31.cpp
+  32:
+    type: tool
+    platform: macOS
+    sources: 32.cpp
+  33:
+    type: tool
+    platform: macOS
+    sources: 33.cpp
+  34:
+    type: tool
+    platform: macOS
+    sources: 34.cpp
+  35:
+    type: tool
+    platform: macOS
+    sources: 35.cpp
+  36:
+    type: tool
+    platform: macOS
+    sources: 36.cpp
+  37:
+    type: tool
+    platform: macOS
+    sources: 37.cpp
+  38:
+    type: tool
+    platform: macOS
+    sources: 38.cpp
+  39:
+    type: tool
+    platform: macOS
+    sources: 39.cpp
+  40:
+    type: tool
+    platform: macOS
+    sources: 40.cpp
+  41:
+    type: tool
+    platform: macOS
+    sources: 41.cpp
+  42:
+    type: tool
+    platform: macOS
+    sources: 42.cpp
+  43:
+    type: tool
+    platform: macOS
+    sources: 43.cpp
+  44:
+    type: tool
+    platform: macOS
+    sources: 44.cpp
+  45:
+    type: tool
+    platform: macOS
+    sources: 45.cpp
+  46:
+    type: tool
+    platform: macOS
+    sources: 46.cpp
+  47:
+    type: tool
+    platform: macOS
+    sources: 47.cpp
+  48:
+    type: tool
+    platform: macOS
+    sources: 48.cpp
+  49:
+    type: tool
+    platform: macOS
+    sources: 49.cpp
+  50:
+    type: tool
+    platform: macOS
+    sources: 50.cpp
+  51:
+    type: tool
+    platform: macOS
+    sources: 51.cpp
+  52:
+    type: tool
+    platform: macOS
+    sources: 52.cpp
+  53:
+    type: tool
+    platform: macOS
+    sources: 53.cpp
+  54:
+    type: tool
+    platform: macOS
+    sources: 54.cpp
+  55:
+    type: tool
+    platform: macOS
+    sources: 55.cpp
+  56:
+    type: tool
+    platform: macOS
+    sources: 56.cpp
+  57:
+    type: tool
+    platform: macOS
+    sources: 57.cpp
+  58:
+    type: tool
+    platform: macOS
+    sources: 58.cpp
+  59:
+    type: tool
+    platform: macOS
+    sources: 59.cpp
+  60:
+    type: tool
+    platform: macOS
+    sources: 60.cpp
+  61:
+    type: tool
+    platform: macOS
+    sources: 61.cpp
+  62:
+    type: tool
+    platform: macOS
+    sources: 62.cpp
+  63:
+    type: tool
+    platform: macOS
+    sources: 63.cpp
+  64:
+    type: tool
+    platform: macOS
+    sources: 64.cpp
+  65:
+    type: tool
+    platform: macOS
+    sources: 65.cpp
+  66:
+    type: tool
+    platform: macOS
+    sources: 66.cpp
+  67:
+    type: tool
+    platform: macOS
+    sources: 67.cpp
+  68:
+    type: tool
+    platform: macOS
+    sources: 68.cpp
+  69:
+    type: tool
+    platform: macOS
+    sources: 69.cpp
+  70:
+    type: tool
+    platform: macOS
+    sources: 70.cpp
+  71:
+    type: tool
+    platform: macOS
+    sources: 71.cpp
+  72:
+    type: tool
+    platform: macOS
+    sources: 72.cpp
+  73:
+    type: tool
+    platform: macOS
+    sources: 73.cpp
+  74:
+    type: tool
+    platform: macOS
+    sources: 74.cpp
+  75:
+    type: tool
+    platform: macOS
+    sources: 75.cpp
+  76:
+    type: tool
+    platform: macOS
+    sources: 76.cpp
+  77:
+    type: tool
+    platform: macOS
+    sources: 77.cpp
+  78:
+    type: tool
+    platform: macOS
+    sources: 78.cpp
+  79:
+    type: tool
+    platform: macOS
+    sources: 79.cpp
+  80:
+    type: tool
+    platform: macOS
+    sources: 80.cpp
+  81:
+    type: tool
+    platform: macOS
+    sources: 81.cpp
+  82:
+    type: tool
+    platform: macOS
+    sources: 82.cpp
+  83:
+    type: tool
+    platform: macOS
+    sources: 83.cpp
+  84:
+    type: tool
+    platform: macOS
+    sources: 84.cpp
+  85:
+    type: tool
+    platform: macOS
+    sources: 85.cpp
+  86:
+    type: tool
+    platform: macOS
+    sources: 86.cpp
+  87:
+    type: tool
+    platform: macOS
+    sources: 87.cpp
+  88:
+    type: tool
+    platform: macOS
+    sources: 88.cpp
+  89:
+    type: tool
+    platform: macOS
+    sources: 89.cpp
+  90:
+    type: tool
+    platform: macOS
+    sources: 90.cpp
+  91:
+    type: tool
+    platform: macOS
+    sources: 91.cpp
+  92:
+    type: tool
+    platform: macOS
+    sources: 92.cpp
+  93:
+    type: tool
+    platform: macOS
+    sources: 93.cpp
+  94:
+    type: tool
+    platform: macOS
+    sources: 94.cpp
+  95:
+    type: tool
+    platform: macOS
+    sources: 95.cpp
+  96:
+    type: tool
+    platform: macOS
+    sources: 96.cpp
+  97:
+    type: tool
+    platform: macOS
+    sources: 97.cpp
+  98:
+    type: tool
+    platform: macOS
+    sources: 98.cpp
+  99:
+    type: tool
+    platform: macOS
+    sources: 99.cpp
+  100:
+    type: tool
+    platform: macOS
+    sources: 100.cpp
+
