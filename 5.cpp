@@ -7,7 +7,6 @@ auto is_prime(int const num) -> bool {
   if (num % 2 == 0 || num % 3 == 0) {
     return false;
   }
-  // NOLINTNEXTLINE(cppcoreguidelines-avoid-magic-numbers,readability-magic-numbers)
   for (int i = 5; i * i <= num; i += 6) {
     if (num % i == 0 || num % (i + 2) == 0) {
       return false;
@@ -22,9 +21,7 @@ auto main(int /*argc*/, const char* /*argv*/[]) -> int {
   std::cin >> limit;
 
   for (int n = 2; n <= limit; n++) {
-    // NOLINTNEXTLINE(cppcoreguidelines-avoid-magic-numbers,readability-magic-numbers)
     if (is_prime(n) && is_prime(n + 6)) {
-      // NOLINTNEXTLINE(cppcoreguidelines-avoid-magic-numbers,readability-magic-numbers)
       std::cout << n << "," << n + 6 << std::endl;
     }
   }

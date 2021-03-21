@@ -13,7 +13,6 @@ auto sum_proper_divisors(int const number) -> int {
 }
 
 void print_abundant(int const limit) {
-  // NOLINTNEXTLINE(cppcoreguidelines-avoid-magic-numbers,readability-magic-numbers)
   for (int number = 10; number <= limit; ++number) {
     if (auto sum = sum_proper_divisors(number); sum > number) {
       std::cout << number << ", abundant=" << sum - number << std::endl;
