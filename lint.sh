@@ -1,6 +1,6 @@
 #!/usr/bin/env bash -eu
 
-PROJECT='The Modern Cpp Challenge.xcodeproj'
+PROJECT='The-Modern-Cpp-Challenge.xcodeproj'
 
 TMPFILE=$(mktemp)
 brew list llvm > $TMPFILE
